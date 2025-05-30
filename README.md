@@ -5,9 +5,6 @@
   <h1 align="center">Epileptic Seizure Detection</h1>
   <p align="center">A CNN-powered app to detect seizures from EEG signals</p>
   <p align="center">
-    <img src="https://img.shields.io/badge/Status-Production-green?style=flat-square" />
-    <img src="https://img.shields.io/github/stars/shivani020/Epileptic-Seizure-Detection?style=flat-square" />
-    <img src="https://img.shields.io/github/forks/shivani020/Epileptic-Seizure-Detection?style=flat-square" />
     <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20Shivani-blue?style=flat-square" />
   </p>
 </p>
