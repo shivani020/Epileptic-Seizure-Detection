@@ -6,9 +6,9 @@
   <p align="center">A CNN-powered app to detect seizures from EEG signals</p>
   <p align="center">
     <img src="https://img.shields.io/badge/Status-Production-green?style=flat-square" />
-    <img src="https://img.shields.io/github/stars/yourusername/Epileptic-Seizure-Detection?style=flat-square" />
-    <img src="https://img.shields.io/github/forks/yourusername/Epileptic-Seizure-Detection?style=flat-square" />
-    <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20YOU-blue?style=flat-square" />
+    <img src="https://img.shields.io/github/stars/shivani020/Epileptic-Seizure-Detection?style=flat-square" />
+    <img src="https://img.shields.io/github/forks/shivani020/Epileptic-Seizure-Detection?style=flat-square" />
+    <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20Shivani-blue?style=flat-square" />
   </p>
 </p>
 
@@ -28,32 +28,6 @@ A deep learning-based web application that analyzes EEG signals and detects if a
 - 🌐 Elegant UI using Bootstrap
 - 🔐 Secure `.env` config
 - ☁️ Cloud-deployable (Render ready!)
-
----
-
-## 🚀 Deployment Instructions (Render)
-
-1. **Create a GitHub repository** and push your project.
-2. Go to [Render.com](https://render.com).
-3. Click on “New Web Service”.
-4. Connect your GitHub repo.
-5. Fill settings:
-
-   - **Build Command:**  
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-   - **Start Command:**  
-     ```bash
-     gunicorn app:app
-     ```
-
-   - **Environment:** Python 3.x  
-   - Add environment variables from your `.env` file (like `SECRET_KEY`, `MODEL_PATH`)
-   - Deploy! 🎉
-
-📝 *Optional*: Use [render.yaml](https://render.com/docs/infrastructure-as-code) to auto-configure deployment.
 
 ---
 
