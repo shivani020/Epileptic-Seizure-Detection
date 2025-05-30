@@ -1,8 +1,6 @@
 # 🧠 Epileptic Seizure Detection using CNN
 
 ![Built with Love](https://img.shields.io/badge/Built%20With-%F0%9F%92%96-ff69b4)
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Flask](https://img.shields.io/badge/Flask-Web_App-success)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 A deep learning-based web application that detects epileptic seizures from EEG data using a Convolutional Neural Network (CNN) and provides predictions with confidence scores on a sleek, user-friendly interface.
@@ -50,31 +48,24 @@ pip install -r requirements.txt
 # 4. Run the Flask app
 python app.py
 
-📦 Deployment
-⚠️ Recommended Platforms for Flask:
-Render
 
-Railway
 
-Heroku (legacy support)
-
-🧪 Sample Prediction
+## Sample Prediction
 Sample ID  	Actual Label  	Predicted Label  	Confidence
-1124	        Seizure        Seizure	           94.8%
-1022      	No Seizure	      No Seizure         98.1%
+1124	      Seizure          Seizure	          94.8%
+1022      	No Seizure	     No Seizure         98.1%
 
-🛠️ Tech Stack
-🐍 Python 3.10
 
-🔥 TensorFlow / Keras
 
-🌐 Flask (Python Web Framework)
+## Tech Stack
 
-🎨 HTML5 + CSS3 + Bootstrap 5
+- Python 3.10
+- TensorFlow / Keras
+- Flask (Python Web Framework)
+- HTML5 + CSS3 + Bootstrap 5
+- Matplotlib for plotting EEG data
+- Git & GitHub for version control
 
-📉 Matplotlib for plotting EEG data
-
-🧹 Git & GitHub for version control
 
 📂 Project Structure
 ├── app.py
@@ -97,7 +88,7 @@ Sample ID  	Actual Label  	Predicted Label  	Confidence
 └── README.md
 
 
-👨‍💻 Contributors
+👨‍💻 Contributor
 Shivani – Developer & ML Engineer
 contact - shivani030303@gmail.com
 
