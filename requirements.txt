@@ -1,7 +1,8 @@
-flask
-tensorflow
+Flask
 pandas
 numpy
-matplotlib
+tensorflow
 scikit-learn
+matplotlib
+python-dotenv
 gunicorn
