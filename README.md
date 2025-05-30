@@ -52,14 +52,14 @@ python app.py
 
 ---
 
-# Screenshots
+## Screenshots
 ![ss2](https://github.com/user-attachments/assets/76badc45-563b-4c0b-865e-f3f4f049bd30)
 
 ![ss1](https://github.com/user-attachments/assets/f999e322-f163-4838-9a6d-3d2f24fad0b3)
 
 ---
 
-# Sample Prediction Output
+## Sample Prediction Output
 EEG ID: Sample_2
 
 Actual Label: 3 (seizure)
@@ -70,8 +70,7 @@ Confidence: 91.45%
 
 ---
 
-
-# Tech Stack
+## Tech Stack
 
        Layer             Tech              
 | ------------- | ----------------- |
@@ -86,7 +85,7 @@ Confidence: 91.45%
 ---
 
 
-#  📁 Project Structure
+##  📁 Project Structure
 
 ├── app.py
 ├── train_model.py
@@ -108,7 +107,7 @@ Confidence: 91.45%
 ---
 
 
-# 👨‍💻 Contributors
+## 👨‍💻 Contributors
 
 Shivani – Developer & ML Engineer
 
@@ -118,7 +117,7 @@ shivani030303@gmail.com
 ---
 
 
-# 🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 Open EEG dataset contributors
 
