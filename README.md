@@ -1,4 +1,4 @@
-# 🧠 Epileptic Seizure Detection using CNN
+# Epileptic Seizure Detection using CNN
 
 ![Built with Love](https://img.shields.io/badge/Built%20With-%F0%9F%92%96-ff69b4)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -7,7 +7,7 @@ A deep learning-based web application that detects epileptic seizures from EEG d
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="screenshots/homepage.png" alt="Homepage" width="600"/>
@@ -17,18 +17,18 @@ A deep learning-based web application that detects epileptic seizures from EEG d
 
 ---
 
-## 💡 Features
+## Features
 
-- 🚀 **Real-time EEG prediction** via CNN model
-- 🧠 Detects seizure and non-seizure states from EEG features
-- 📊 Displays confidence score and actual vs predicted results
-- 📈 Plots EEG signals with dynamic graph
-- 💻 Responsive Flask + Bootstrap-based frontend
-- 🧪 Simple UI to test trained deep learning models
+-  **Real-time EEG prediction** via CNN model
+-  Detects seizure and non-seizure states from EEG features
+-  Displays confidence score and actual vs predicted results
+-  Plots EEG signals with dynamic graph
+-  Responsive Flask + Bootstrap-based frontend
+-  Simple UI to test trained deep learning models
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ```bash
 # 1. Clone the repository
