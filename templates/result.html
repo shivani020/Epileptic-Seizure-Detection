@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #f0f2f5, #c9d6ff);
+            font-family: 'Segoe UI', sans-serif;
+            min-height: 100vh;
+        }
+        .card {
+            border-radius: 20px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+            background-color: #ffffffda;
+        }
+        .result-label {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .value {
+            font-size: 1.3rem;
+            color: #2c3e50;
+        }
+        .btn-home {
+            border-radius: 25px;
+            padding: 10px 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="card p-5">
+                <h2 class="text-center mb-4">Prediction Result</h2>
+
+                <div class="mb-4">
+                    <p class="result-label">Sample ID:</p>
+                    <p class="value">{{ sample_id }}</p>
+
+                    <p class="result-label">Actual Label:</p>
+                    <p class="value">{{ actual_label }}</p>
+
+                    <p class="result-label">Predicted Label:</p>
+                    <p class="value">{{ predicted_label }}</p>
+
+                    <p class="result-label">Confidence:</p>
+                    <p class="value">{{ confidence }}%</p>
+                </div>
+
+                <div class="text-center mb-4">
+                    <img src="{{ plot_url }}" alt="EEG Plot" class="img-fluid rounded" style="max-height: 350px;">
+                </div>
+
+                <div class="d-grid">
+                    <a href="/" class="btn btn-primary btn-home">Try Another Sample</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

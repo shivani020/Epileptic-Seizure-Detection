@@ -1,0 +1,15 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+
+# Ignore model files (optional, can be shared separately if needed)
+*.h5
+
+# Ignore matplotlib plot images
+static/plot.png
+
+# Environment files
+.env

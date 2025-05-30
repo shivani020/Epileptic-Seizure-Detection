@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select EEG Sample</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+            font-family: 'Segoe UI', sans-serif;
+            min-height: 100vh;
+        }
+        .card {
+            border-radius: 20px;
+            background-color: #ffffffcc;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+        }
+        .btn-submit {
+            border-radius: 25px;
+            padding: 10px 25px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="card p-5">
+                <h2 class="text-center mb-4">EEG Sample Prediction</h2>
+
+                <form method="POST" action="/predict">
+                    <div class="mb-4">
+                        <label for="sample_index" class="form-label">Select an EEG Sample:</label>
+                        <select class="form-select" id="sample_index" name="sample_index" required>
+                            {% for i in range(samples|length) %}
+                                <option value="{{ samples.index[i] }}">Sample ID: {{ sample_ids[i] }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-submit">Predict</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
