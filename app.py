@@ -6,7 +6,6 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import os
 from dotenv import load_dotenv
-import os
 
 load_dotenv()
 
@@ -40,7 +39,7 @@ def index():
 def predict():
     selected_index = int(request.form['sample_index'])
     sample = data.iloc[selected_index]
-    sample_id = sample.iloc[0]
+    sample_id = sample.[0]
     actual_label = sample[label_column]
 
     # Extract features
@@ -70,4 +69,5 @@ def predict():
                            plot_url=plot_path)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000)) 
+    app.run(host='0.0.0.0', port=port)
