@@ -1,129 +1,108 @@
-﻿# epileptic-seizure-detection
+# 🧠 Epileptic Seizure Detection using CNN
 
- <p align="center">
-  <img src="https://img.icons8.com/ios-filled/100/brain.png" width="80" />
-  <h1 align="center">Epileptic Seizure Detection</h1>
-  <p align="center">A CNN-powered app to detect seizures from EEG signals</p>
-  <p align="center">
-    <img src="https://img.shields.io/badge/Made%20with-❤️%20by%20Shivani-blue?style=flat-square" />
-  </p>
+![Built with Love](https://img.shields.io/badge/Built%20With-%F0%9F%92%96-ff69b4)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-Web_App-success)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+A deep learning-based web application that detects epileptic seizures from EEG data using a Convolutional Neural Network (CNN) and provides predictions with confidence scores on a sleek, user-friendly interface.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/homepage.png" alt="Homepage" width="600"/>
+  <br/>
+  <img src="screenshots/prediction.png" alt="Prediction" width="600"/>
 </p>
 
 ---
 
-## Project Overview
+## 💡 Features
 
-A deep learning-based web application that analyzes EEG signals and detects if a person is experiencing a seizure using a Convolutional Neural Network (CNN). Built with Flask and designed for real-world deployment.
-
----
-
-## Features
-
--  CNN-based classification of EEG signals
--  Real-time EEG signal visualization
--  Prediction confidence score
--  Elegant UI using Bootstrap
--  Secure `.env` config
--  Cloud-deployable (Render ready!)
+- 🚀 **Real-time EEG prediction** via CNN model
+- 🧠 Detects seizure and non-seizure states from EEG features
+- 📊 Displays confidence score and actual vs predicted results
+- 📈 Plots EEG signals with dynamic graph
+- 💻 Responsive Flask + Bootstrap-based frontend
+- 🧪 Simple UI to test trained deep learning models
 
 ---
 
-## How to Run Locally
+## 🚀 How to Run Locally
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/Epileptic-Seizure-Detection.git
+# 1. Clone the repository
+git clone https://github.com/your-username/Epileptic-Seizure-Detection.git
 cd Epileptic-Seizure-Detection
 
-# Set up environment
+# 2. Create a virtual environment
 python -m venv venv
-venv\Scripts\activate      # Windows
-source venv/bin/activate   # Mac/Linux
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
 
-# Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-
-# Add environment variables
-cp .env.example .env
-
-# Run the Flask server
+# 4. Run the Flask app
 python app.py
 
----
+📦 Deployment
+⚠️ Recommended Platforms for Flask:
+Render
 
-## Screenshots
-![ss2](https://github.com/user-attachments/assets/76badc45-563b-4c0b-865e-f3f4f049bd30)
+Railway
 
-![ss1](https://github.com/user-attachments/assets/f999e322-f163-4838-9a6d-3d2f24fad0b3)
+Heroku (legacy support)
 
----
+🧪 Sample Prediction
+Sample ID  	Actual Label  	Predicted Label  	Confidence
+1124	        Seizure        Seizure	           94.8%
+1022      	No Seizure	      No Seizure         98.1%
 
-## Sample Prediction Output
-EEG ID: Sample_2
+🛠️ Tech Stack
+🐍 Python 3.10
 
-Actual Label: 3 (seizure)
+🔥 TensorFlow / Keras
 
-Prediction: Seizure
+🌐 Flask (Python Web Framework)
 
-Confidence: 91.45%
+🎨 HTML5 + CSS3 + Bootstrap 5
 
----
+📉 Matplotlib for plotting EEG data
 
-## Tech Stack
+🧹 Git & GitHub for version control
 
-       Layer             Tech              
-| ------------- | ----------------- |
-| ML Model      | TensorFlow, Keras |
-| Web Framework | Flask             |
-| UI Framework  | Bootstrap 5       |
-| Data Handling | Pandas, NumPy     |
-| Plotting      | Matplotlib        |
-| Deployment    | Render / Gunicorn |
-
-
----
-
-
-##  📁 Project Structure
-
+📂 Project Structure
 ├── app.py
 ├── train_model.py
+├── model/
+│   └── seizure_model.h5
 ├── templates/
 │   ├── index.html
 │   └── result.html
 ├── static/
-│   ├── plot.png
-├── model/
-│   └── seizure_model.h5
+│   └── plot.png
 ├── uploads/
-|     └──eeg_data.csv
+│   └── eeg_data.csv
+├── screenshots/
+│   ├── homepage.png
+│   └── prediction.png
 ├── .env
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 
 
----
-
-
-## 👨‍💻 Contributors
-
+👨‍💻 Contributors
 Shivani – Developer & ML Engineer
-
-shivani030303@gmail.com
-
-
----
+contact - shivani030303@gmail.com
 
 
-## 🙏 Acknowledgements
+🤍 Special Thanks
+To all the researchers and contributors in the field of Epileptic Seizure Detection and EEG Data Science.
 
-Open EEG dataset contributors
-
-Professors & mentors for guidance
-
-OpenAI & GitHub Copilot for coding assistance
-
-
-
+⭐ If you like this project, give it a star and consider contributing!
