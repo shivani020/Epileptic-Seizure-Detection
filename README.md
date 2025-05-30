@@ -50,11 +50,14 @@ cp .env.example .env
 # Run the Flask server
 python app.py
 
+---
+
 # Screenshots
 ![ss2](https://github.com/user-attachments/assets/76badc45-563b-4c0b-865e-f3f4f049bd30)
 
 ![ss1](https://github.com/user-attachments/assets/f999e322-f163-4838-9a6d-3d2f24fad0b3)
 
+---
 
 # Sample Prediction Output
 EEG ID: Sample_2
@@ -64,6 +67,8 @@ Actual Label: 3 (seizure)
 Prediction: Seizure
 
 Confidence: 91.45%
+
+---
 
 
 # Tech Stack
@@ -76,6 +81,9 @@ Confidence: 91.45%
 | Data Handling | Pandas, NumPy     |
 | Plotting      | Matplotlib        |
 | Deployment    | Render / Gunicorn |
+
+
+---
 
 
 #  📁 Project Structure
@@ -97,11 +105,17 @@ Confidence: 91.45%
 └── README.md
 
 
-#👨‍💻 Contributors
+---
+
+
+# 👨‍💻 Contributors
 
 Shivani – Developer & ML Engineer
 
 shivani030303@gmail.com
+
+
+---
 
 
 # 🙏 Acknowledgements
