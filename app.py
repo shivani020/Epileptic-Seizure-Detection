@@ -10,7 +10,7 @@ import os
 
 load_dotenv()
 
-model_path = os.getenv("MODEL_PATH", "uploads/seizure_model.h5")
+model_path = os.getenv("MODEL_PATH", "model/seizure_model.h5")
 model = tf.keras.models.load_model(model_path)
 
 
