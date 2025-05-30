@@ -39,7 +39,7 @@ def index():
 def predict():
     selected_index = int(request.form['sample_index'])
     sample = data.iloc[selected_index]
-    sample_id = sample.[0]
+    sample_id = sample[0]
     actual_label = sample[label_column]
 
     # Extract features
