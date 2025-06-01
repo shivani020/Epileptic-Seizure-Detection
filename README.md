@@ -49,14 +49,6 @@ pip install -r requirements.txt
 python app.py
 
 
-
-## Sample Prediction
-Sample ID  	Actual Label  	Predicted Label  	Confidence
-1124	      Seizure          Seizure	          94.8%
-1022      	No Seizure	     No Seizure         98.1%
-
-
-
 ## Tech Stack
 
 - Python 3.10
